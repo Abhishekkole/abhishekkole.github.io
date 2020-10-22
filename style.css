@@ -1025,6 +1025,10 @@ footer{
  }
 } 
 @media(max-width:600px){
+  .about-text p{
+    text-align: center;
+    text-size-adjust: 15px;
+  }
   #services {
     height: 110vh;
   }
