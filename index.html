@@ -18,7 +18,7 @@
         <!--main------------------------>
          <section id="main">
             <!--navigation-------------------------------->
-             <nav>
+             <nav id="nav">
                 <!--logo---> <a class="navbar-brand page-scroll" href="#">
                 <img src="./img/logo3.jpg" width="45" height="30"/><font color="black">Abhishek Kole</font></a>
 
@@ -264,6 +264,20 @@
                 <p id="to-top-copy"><font color="grey">Move to top</font></p>
             </div>
         </footer>
+                
+         <!--Scroll-->
+      <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+           document.getElementById("nav").style.top = "0px";
+          } else {
+            document.getElementById("nav").style.top = "-100px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
  
  
  
