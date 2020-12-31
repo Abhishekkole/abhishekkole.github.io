@@ -8,7 +8,7 @@ body{
 
 
 .sidebar a{
-  
+  background-color: transparent;
   color:grey;
   padding: 1rem;
 } 
@@ -53,6 +53,7 @@ body{
     height: 100vh;
   }
   .toggle{
+    color: whitesmoke;
     display: flex;
   }
   .skills-section h3 {
@@ -97,7 +98,7 @@ nav{
  width:100%;
  box-sizing: border-box;
  padding: 10px 50px;
- background-color:#F4F7FF;
+ background-color:transparent;
  box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
  z-index: 1;
 }
@@ -144,7 +145,7 @@ nav{
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color:white;
+  color:transparent;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -156,6 +157,7 @@ nav{
 
 
 .toggle{
+  color: white;
  display: none;
 }
 .active a,
@@ -576,7 +578,7 @@ a.resume-btn:active {
   }
 
   .toggle{
-    color:green;
+    color:red !important;
     position: 1rem;
     top: 2rem;
     right: 1rem;
@@ -589,7 +591,7 @@ a.resume-btn:active {
 
   
   .sidebar.active{
-    display: none;
+    display: inline;
   }
 
 
@@ -597,17 +599,18 @@ a.resume-btn:active {
   
   /* Style the hamburger menu */
   .toggle a.icone {
-    background: white;
+    color:red !important;
     display: block;
-    position: 12%;
-    right: 0;
+    margin-left: 05px;
+    max-width: 15px;
     top: 40;
   }
   
   /* Add a grey background color on mouse-over */
   .toggle a {
-    background-color:green;
-    color:grey
+    margin-left: 5px;
+    background-color:red;
+    color:white;
   }
   .sidebar a{
     display: flex;
@@ -615,7 +618,6 @@ a.resume-btn:active {
   }
   /* Style the active link (or home/logo) */
   .sidebar a:hover{
-    background-color: black;
     color:grey;
   }
 
@@ -769,7 +771,7 @@ a.resume-btn:active {
   height: 53vh;
   padding-top: 50px;
   padding-bottom: 70px;
-  background-color: #F0F0F0;
+  background:white;
 }
 
 .email-icon {
@@ -794,7 +796,7 @@ a.resume-btn:active {
 
 
  a.email-button {
-  background: none;
+    background: none;
     display: inline-block;
     padding: 10px 20px;
     color:black;
@@ -959,6 +961,7 @@ footer{
     display: flex;
     flex-direction: column;
     position: 2rem;
+    color: white;
   }
 
   #services {
@@ -967,15 +970,16 @@ footer{
   
 
   .sidebar {
+    background-color: transparent;
     display: none;
-    width: 100%;
+    width: 40%;
   }
   
   
  nav{
 
     padding:10px 30px;
-    background-color:white;
+    background-color:transparent;
  }
  
  nav ul{
