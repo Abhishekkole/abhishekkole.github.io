@@ -766,7 +766,7 @@ a.resume-btn:active {
 }
 
 #contact {
-  height: 53vh;
+  height: 54vh;
   padding-top: 50px;
   padding-bottom: 70px;
   background-color: #F0F0F0;
@@ -858,7 +858,7 @@ a.email-button:hover {
 }
 
 footer{
-  height:27vh;
+  height:29vh;
    background-color: black; 
    text-align: center; 
 }
