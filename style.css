@@ -299,7 +299,7 @@ nav{
   transition: all ease .7s;
 }
 .skills-section{
-  margin-top: 20px;
+  margin-top: 30px;
 
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -403,7 +403,7 @@ nav{
 
 
 #skills{
- height:200vh;
+ height:240vh;
  box-sizing: border-box;
  font-family: calibri;
  display: flex;
