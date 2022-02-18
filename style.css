@@ -50,7 +50,7 @@ body{
     transform: translate(25%,25%);
   }
   #about{
-    height: 100vh;
+    height: 50vh;
   }
   .toggle{
     color: whitesmoke;
@@ -222,7 +222,7 @@ nav{
 
 
 #about{
-  height: 60vh;
+  height: 50vh;
 }
 .about-text h1{
   color:#1ED98B;
@@ -238,7 +238,7 @@ nav{
 }
 
 #services {
-  height: 110vh;
+  height: 100vh;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #F0F0F0;
@@ -403,7 +403,7 @@ nav{
 
 
 #skills{
- height:240vh;
+ height:110vh;
  box-sizing: border-box;
  font-family: calibri;
  display: flex;
@@ -525,7 +525,7 @@ a.resume-btn:active {
   }
 
   #about{
-    height: 90vh;
+    height: 50vh;
   }
 
   nav{
@@ -829,7 +829,7 @@ a.email-button:hover {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 5px;
+  grid-gap: 20px;
   padding: 2px;
 }
 
@@ -839,11 +839,11 @@ a.email-button:hover {
   padding: 20px 0;
   font-size: 3px;
 }
-.item1{
+.item1{ 
     grid-row: 2/3;
 }
 .grid-container img{
-  width: 50px;
+  width: 100px;
 }
 .skills-section h3 {
   align-items: center;
@@ -946,7 +946,7 @@ footer{
   display: none;
  }
  #about{
-  padding-top: 0px;
+  padding-top: 10px;
  }
  .about-text{
   width: 90%;
