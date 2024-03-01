@@ -1,311 +1,273 @@
-<!--doctype html-->
-<html>
-<head>
-<meta charset="utf-8">
-<title>Abhishek Kole</title>
-<meta http-equiv="X-UA-Compatible" content="IE-edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--title-icon--------->
-    <link rel="shortcut icon" href="./img/AB.png">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-<!--using FontAwesome---------------->
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/img/AB.png">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-
-    <!--New-->
-    
-
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="100">
- <div id="content">   
-        <!--main------------------------>
-         <section id="main">
-            <!--navigation-------------------------------->
-             <nav id="nav">
-                <!--logo---> <a class="navbar-brand page-scroll" href="#">
-                <img src="./img/AB.png" width="40" height="40"/><font color="gray"><p class="abhi">Abhishek Kole</p></font></a>
-
-                
-                    
-                <div class="toggle">
-                    <a href="#main" class="active"></a>
-                    <a href="javascript:void(0);" class="icone" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                      </a>
+        <title>Abhishek Kole</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Abhishek Kole</a>
                 </div>
 
-                    <div  class="sidebar" id="mylinks" >
-                    
-                            <a href="#main"  class="active">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#services">Passion</a>
-                            <a href="#skills">Skills</a> 
-                            <a href="#portfolio">Projects</a>
-                            <a href="#contact">Get In Touch</a> 
-                    </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
             </nav>
-            <!--name--------------------------->
-            <section id="intro">
-                <div class="name">
-  
-                <!--hello------->
-                <!--name--->
-                <h1>Hi,I'm <font color="grey">Abhishek</font> Kole</h1>
-                <!--details--------------->
-                <p class="details">I'm a Cloud and Devops Engineer</p>
-                
-             </div>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Abhishek Kole</span><br> Devops Engineer </h1>
+
+                    <a href="https://linkedin.com/in/abhishekkole" target="_blank" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://linkedin.com/in/abhishekkole" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://medium.com/@abhishekkolekp" class="home__social-icon" target="_blank"><i class='bx bxl-medium' ></i></a>
+                    <a href="https://github.com/Abhishekkole" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                    <a href="https://twitter.com/Abhishekkolekp" class="home__social-icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/AbhishekKole-removebg-preview.png"/>
+                        </g>
+                    </svg>
+                </div>
             </section>
-  
-            <!--social---------------->
-            <div class="social">
-                <a href="https://www.linkedin.com/in/abhishekkole/" target="_blank"><i class="fab fa-linkedin"></i></a> 
-                <a href="https://github.com/Abhishekkole" target="_blank" ><i class="fab fa-github"></i></a>
-            </div>
- 
-        </section>
-            <!--about----------------------->
-        <section id="about">
-            
-            <!--text---------------------->
-            <div class="about-text">
-               
-                <h1 style="color: slateblue;"><center> A little bit about me</center></h1>
-                <p>Hey,I am Abhishek. I'm currently working as <b>Devops Engineer</b> at <b>Innominds</b> Have 2 years of expertise in configuring, deploying and managing cloud infrastructures. Proven track record of developing,
-testing, and maintaining CI/CD pipelines, automating workflows to reduce manual efforts and achieving operational excellence. Experienced
-in using DevOps tools like Linux, GIT, Jenkins,Azure Devops, Terraform, Google Cloud Platform (GCP),Microsoft Azure Cloud, AWS, Kubernetes,
-Jenkins, Ansible,Kubernetes and Docker.  </p>
-            <p>I was born and brought up in Hyderabad I completed my engineering from VASAVI COLLEGE OF ENGINEERING in 2021.</p>
-            </div>
-        </section>
-        <section id="services" class="text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2><strong><em><center> <font color="grey">What I Do </font></center></em></strong></h2>
-                            <div class="spacer-10"></div>
-                    
-                            <div class="col-md-4 wp2 delay-025s">
-                            <div class="icon"><i class="fa fa-code"></i></div>
-                                <h3>Cloud and Devops</h3>
-                                <center><p>2 years of experrise in configuring, deploying and managing cloud infrastructures. Proven track record of developing,
-testing, and maintaining CI/CD pipelines, automating workflows to reduce manual efforts and achieving operational excellence. Experienced
-in using DevOps tools like Linux, GIT, Azure Devops, Terraform, Google Cloud Platform (GCP),Microsoft Azure Cloud, AWS, Kubernetes,
-Jenkins, Ansible, and Docker.</p></center>
-                            </div>
-                            <div class="col-md-4 wp2 delay-05s">
-                            <div class="icon"><i class="fa fa-book"></i></div>
-                                <h3>Education</h3>
-                                <p> I've completed my  
-                                <em>B.E in Information Technology</em> from <strong>Vasavi College of Engineering</strong>.
-                                 My primary interests lies in working,exploring and learning new Cloud and Devops Technologies.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
 
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
 
-
- 
-            <!--skills-------------------->
-        <section id="skills">
-            <!--heading-------------->
-                        <h3>Some technologies that I've worked with:</h3>
-                        <div class="grid-container">
-                            <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/ansible.png"></div>
-                            <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/Jenkins.png"></div>
-                            <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/Docker.png"></div>
-                             <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/Terraform.svg"></div>
-                             <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/aws.png"></div>
-                             <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/git.png"></div>
-                             <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/python.png"></div>
-                             <div class="col-xs-3 col-sm-2 col-md-2 skill-icon"><img class="img-responsive" src="img/linux.png"></div>
-
-
-                            
-
-                        </div>
-                    </div>
-                </div>
-
-        </section>
-    
-            <!-- Section: Resume -->
-        <section id="resume">
-            <div class="text-center">
-                <div class="overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2><em> Check out my resume!</em></h2>
-                                <div id="resume-button">
-                                    <a class="resume-btn wp4" href="Abhishek-Kole-Resume.docx" target="_blank">Grab A Copy</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- row -->
-                    </div>
-                    <!-- container -->
-                </div>
-            </div>
-        </section>
-            <!-- /Section: Resume -->
-        <section id="portfolio">
-            <div class="container">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading"><strong><em><center> Some Projects that I've Done</center></em></strong></h2>
-                    
-                </div>
-                <div class="row portfolio-row">
-                    <div class="portfolio-item-wrapper wp5">
-                        <div class="portfolio-item" data-toggle="modal" href="#face">
-                            <div class="portfolio-overlay"></div>
-                            <div class="links">
-                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                
-                            </div>
-                            <img src="img/Terraform.svg" alt="image">
-                            <div class="portfolio-info">
-                                <p class="visit"><a href="#" target="_blank" id="visit-btn"><font color="whitesmoke">Visit Site</font></a> or <a href="https://github.com/Abhishekkole/terraform" target="_blank" id="visit-btn">View Source</a></p>
-                            </div>  
-                            <center><h3>Terraform Infrastructure </h3></center>
-                        </div>
-                    </div>
-                    <div class="portfolio-item-wrapper wp5">
-                        <div class="portfolio-item" data-toggle="modal" href="#number">
-                            <div class="portfolio-overlay"></div>
-                            <div class="links">
-                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                
-                            </div>
-                            <img src="img/number.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <p class="visit"><a href="#" target="_blank" id="visit-btn"><font color="whitesmoke">Visit Site</font></a> or <a href="https://github.com/Abhishekkole/Number-Guessing" target="_blank" id="visit-btn">View Source</a></p>
-                            </div>
-                            <center><h3>Number-Guessing</h3></center>
-                        </div>
-                    </div>
-                    <div class="portfolio-item-wrapper wp5">
-                        <div class="portfolio-item" data-toggle="modal" href="#pwd">
-                            <div class="portfolio-overlay"></div>
-                            <div class="links">
-                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                
-                            </div>
-                            <img src="img/pwd.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <p class="visit"><a href="#" target="_blank" id="visit-btn"><font color="whitesmoke">Visit Site</font></a> or <a href="https://github.com/Abhishekkole/Password-Generator" target="_blank" id="visit-btn">View Source</a></p>
-                            </div>
-                            <center><h3>Password-Generator</h3></center>
-                        </div>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/AbhishekKole-removebg-preview.png" alt="">
                     </div>
                     
-                    <div class="portfolio-item-wrapper wp5">
-                        <div class="portfolio-item" data-toggle="modal" href="#jarvis">
-                            <div class="portfolio-overlay"></div>
-                            <div class="links">
-                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                    <div>
+                        <h2 class="about__subtitle">I'm Abhishek Kole</h2>
+                        <p class="about__text">2.6 years of experience as a DevOps Engineer.Exposure to 3 major clouds(AWS,GCP and Azure). Well versed with Linux,Git,Gitlab,Github Actions,Azure Devops,Docker,Terraform,GCP,AWS,Azure,Kubernetes,
+                             GitOps/ArgoCD,Grafana,Loki and Promtheus.</p>
+                        <p> I've graduated from Vasavi College Of Engineering,Hyderabad with Bachelor of Engineering(B.E) in Information Technology, in 2021</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Currently working as a Devops Engineer in Innominds(Moving to other orgz in March 2024) from past 2.6 years.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-git skills__icon'></i>
+                                <span class="skills__name">Git</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-github skills__icon'></i>
+                                <span class="skills__name">Github Actions</span>
+                            </div>
+                            <div class="skills__bar skills__css">
                                 
                             </div>
-                            <img src="img/jarvis.jpg" alt="image" height="400">
-                            <div class="portfolio-info">
-                                <p class="visit"><a href="#" target="_blank" id="visit-btn"><font color="whitesmoke">Visit Site</font></a> or <a href="https://github.com/Abhishekkole/J.A.R.V.I.S" target="_blank" id="visit-btn">View Source</a></p>
+                            <div>
+                                <span class="skills__percentage">70%</span>
                             </div>
-                            <CENTER><h3>J.A.R.V.I.S</h3></CENTER>
                         </div>
-                    </div>
-                    
-                    <div class="portfolio-item-wrapper wp5" style="height: 400px;">
-                        <div class="portfolio-item" data-toggle="modal" href="#hoovr">
-                            <div class="portfolio-overlay"></div>
-                            <div class="links">
-                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-gitlab skills__icon' ></i>
+                                <span class="skills__name">Gitlab</span>
+                            </div>
+                            <div class="skills__bar skills__js">
                                 
                             </div>
-                            <img src="img/hoovr.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <p class="visit"><a href="#" target="_blank" id="visit-btn"><font color="whitesmoke">Visit Site</font></a> or <a href="https://github.com/Abhishekkole/Hoover-And-Color" target="_blank" id="visit-btn">View Source</a></p>
+                            <div>
+                                <span class="skills__percentage">90%</span>
                             </div>
-                            <CENTER><h3>Hoover & Color</h3></CENTER>
                         </div>
-                    </div>
-
-                    <div class="portfolio-item-wrapper wp5" style="height: 400px;">
-                        <div class="portfolio-item" data-toggle="modal" href="#hoovr">
-                            <div class="portfolio-overlay"></div>
-                            <div class="links">
-                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Linux</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
                                 
                             </div>
-                            <img src="img/Jenkins-2.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <p class="visit"><a href="#" target="_blank" id="visit-btn"><font color="whitesmoke">Visit Site</font></a> or <a href="https://github.com/Abhishekkole/Jenkins-Project" target="_blank" id="visit-btn">View Source</a></p>
+                            <div>
+                                <span class="skills__percentage">80%</span>
                             </div>
-                            <CENTER><h3>Jenkins Project</h3></CENTER>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Docker</span>
+                            </div>
+                            <div class="skills__bar skills__docker">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Terraform</span>
+                            </div>
+                            <div class="skills__bar skills__terraform">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">GCP</span>
+                            </div>
+                            <div class="skills__bar skills__gcp">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">AWS</span>
+                            </div>
+                            <div class="skills__bar skills__aws">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Azure</span>
+                            </div>
+                            <div class="skills__bar skills__azure">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Kubernetes</span>
+                            </div>
+                            <div class="skills__bar skills__kubernetes">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">GitOps/ArgoCD</span>
+                            </div>
+                            <div class="skills__bar skills__argocd">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
                         </div>
                     </div>
-
-
-
-                </section>
-            
-        <!--Contact------------------>
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1 text-center">
-                        <div class="email-icon"><img src="./img/tele.png" style="margin-top: -80px;margin-left: -35px; width: 170px;"></div>
-                            <h2><strong><em><center> Get In Touch!</center></em></strong></h2>
-                            <p style="color: gray;">Whether you have an idea for a project or just want to chat, feel free to shoot me an email!</p>
-                            <p style="margin-top:40px;">
-                            <a class="email-button" href="mailto:abhishekkolekp@gmail.com" target="_blank">Ping Me</a>
-                            </p>
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!--Footer-->
-        <footer>
-            <div class="page-scroll">
-                <a id="to-top" class="page-scroll" href="#page-top">
-                <img id="rocket" src="img/launcher.png" style="width: 90px;"/>
-                </a>
-                <p id="to-top-copy"><font color="grey">Move to top</font></p>
-            </div>
-            
-        </footer>   
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
 
-        <!--Scroll -->
-        <script>
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-              if (prevScrollpos > currentScrollPos) {
-               document.getElementById("nav").style.top = "0px";
-              } else {
-                document.getElementById("nav").style.top = "-100px";
-              }
-              prevScrollpos = currentScrollPos;
-            }
-        </script>
- 
- 
- 
-     <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
-     <script type="text/javascript" src="./myscript.js"></script>
-     <script src="tsparticles.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-    <script type="text/javascript" src="particles.min.js"></script>
-    <script src="test.js"></script>
-    <script type="text/javascript" src="particles.min.js"></script>
-</body>
+                <div class="work__container bd-grid">
+                    <a href="https://gitlab.com/assignment734906/Golang-EKS" class="work__img" target="_blank">
+                        <img src="assets/img/cicd.gif" alt=""> CI/CD from Gitlab to AWS EKS (Personal-Project)
+                    </a>
+                    <a href="https://play.google.com/store/search?q=bullitt+satellite+messenger&c=apps" class="work__img" target="_blank">
+                        <img src="assets/img/bsm.png" alt="">Skylo/Bullitt Messenger
+                    </a>
+                    <a href="https://github.com/Abhishekkole/helloworld" class="work__img" target="_blank">
+                        <img src="assets/img/ga.png" alt=""> CI/CD using Github Actions (Personal-Project)
+                    </a>
+                    <a href="https://github.com/Abhishekkole/Aws_terraform" class="work__img" target="_blank">
+                        <img src="assets/img/terraform.webp" alt="">AWS Infrastructure Provisioning using Terraform
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <h2><em> Check out my resume!</em></h2>    
+                    <a  value="Contact" class="contact__button button" href="./assets/resume/Abhishek_Kole_Devops_Engineer.pdf" target="_blank">Grab a Copy </a>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Abhishek Kole</p>
+            <div class="footer__social">
+                <a href="https://linkedin.com/in/abhishekkole" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://medium.com/@abhishekkolekp" class="footer__icon" target="_blank"><i class='bx bxl-medium' ></i></a>
+                <a href="https://github.com/Abhishekkole" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://twitter.com/Abhishekkolekp" class="footer__icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
